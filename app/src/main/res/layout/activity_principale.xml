@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.clement.projetquiz.PrincipaleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/question"
+        android:textColor="@color/colorNoir"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="22dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="125dp"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:id="@+id/rA"
+            android:layout_weight="0.5"
+            android:background="@color/bleuMarine"
+            android:textColor="@color/colorBlanc"
+            android:onClick="gererOnClick"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:id="@+id/rB"
+            android:layout_weight="0.5"
+            android:background="@color/bleuMarine"
+            android:textColor="@color/colorBlanc"
+            android:onClick="gererOnClick"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="235dp"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:id="@+id/rC"
+            android:layout_weight="0.5"
+            android:background="@color/bleuMarine"
+            android:textColor="@color/colorBlanc"
+            android:onClick="gererOnClick"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:id="@+id/rD"
+            android:layout_weight="0.5"
+            android:background="@color/bleuMarine"
+            android:textColor="@color/colorBlanc"
+            android:onClick="gererOnClick"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/sev"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/darkGreen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_public"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/jpublic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="jokerPublic"
+        android:background="@drawable/bouton_bleu"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_moitmoit"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/j5050"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="joker5050"
+        android:background="@drawable/bouton_jaune"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

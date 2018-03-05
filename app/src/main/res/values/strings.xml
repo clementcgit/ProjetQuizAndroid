@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">ProjetQuiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_main">Quizz Aléatoire</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_propos">A propos</string>
+    <string name="title_activity_principale">PrincipaleActivity</string>
+    <string name="title_activity_resultats">ResultatsActivity</string>
+    <string name="title_activity_tableau">TableauActivity</string>
+    <string name="str_commencer">Commencer</string>
+    <string name="str_scores">Score</string>
+    <string name="str_option">Options</string>
+    <string name="ttl_question">Questions</string>
+    <string name="ttl_resultat">Résultats</string>
+    <string name="str_msgfin">Saisissez votre pseudo :</string>
+    <string name="str_signat">Clément Choin</string>
+    <string name="str_pseudo">Pseudo</string>
+    <string name="str_valide">Valider</string>
+    <string name="str_choixop">Choisissez vos options :</string>
+    <string name="str_diffi">Difficulté :</string>
+    <string name="str_colorfond">Choisissez la couleur de fond des réponses :</string>
+    <string name="str_bleu">bleu</string>
+    <string name="str_rouge">rouge</string>
+    <string name="str_noir">noir</string>
+    <string name="str_rose">rose</string>
+    <string name="str_home">Bienvenue au quiz aléatoire !</string>
+    <string name="title_activity_categories">Catégories</string>
+    <string name="str_culture">Culture</string>
+    <string name="str_informatique">Informatique</string>
+    <string name="str_jeux">Jeux</string>
+    <string name="str_cat">Choisir une catégorie :</string>
+    <string name="str_public">Joker Public</string>
+    <string name="str_moitmoit">Joker 50/50</string>
+    <string name="str_reset">Reset</string>
+    <string name="str_retour">Retour</string>
+    <color name="colorNoir">#000000</color>
+    <color name="colorRouge">#CC0000</color>
+    <color name="darkRed">#640000</color>
+    <color name="bleuMarine">#000064</color>
+    <color name="colorBlanc">#ffffffff</color>
+    <color name="darkGreen">#006400</color>
+    <color name="colorOrange">#FF8800</color>
+    <color name="colorVert">#669900</color>
+    <color name="colorViolet">#9933CC</color>
+    <color name="colorJaune">#ffff00</color>
+    <color name="colorBleu">#0099CC</color>
+    <color name="darkPink">#FF1493</color>
+    <string name="title_activity_about">A propos</string>
+    <string name="str_interro">\?</string>
+    <string name="str_regles">Règles du jeu :</string>
+    <string name="str_propos">A propos de l\'application : </string>
+    <string name="str_develop">Développeur : Clément Choin</string>
+    <string name="title_activity_options">OptionsActivity</string>
+
+</resources>
